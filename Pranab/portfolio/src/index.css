@@ -51,6 +51,7 @@ h1{
 }
 section{
     margin-top: 8rem;
+    height:max-content;
 
 }
 

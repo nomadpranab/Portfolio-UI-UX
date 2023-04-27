@@ -5,7 +5,8 @@ import {BsPatchCheckFill} from 'react-icons/bs'
 function Experience() {
   return (
     <section id="experience">
-        <h5>Skills I Have</h5>
+
+        <h5 className='heading'>Skills I Have</h5>
         <h2>My Experience</h2>
 
         <div className='container experience_container'>
@@ -79,6 +80,53 @@ function Experience() {
                     <small className='text-light'>Basic</small>
                     </div>
                     </article>
+                </div>
+            </div>
+
+            <div className='experience_designer'>
+            <h3>Designing</h3>
+                <div className='experience_content'>
+                    <article className='experience_details'>
+                    <BsPatchCheckFill className='experience_details_icon'/>
+                    <div>
+                    <h4>Photoshop</h4>
+                    <small className='text-light'>Intermediate</small>
+                    </div>
+                    </article>
+
+                    <article className='experience_details'>
+                    <BsPatchCheckFill className='experience_details_icon'/>
+                    <div>
+                    <h4>Canva</h4>
+                    <small className='text-light'>Experienced</small>
+                    </div>
+                    </article>
+
+                    <article className='experience_details'>
+                    <BsPatchCheckFill className='experience_details_icon'/>
+                    <div>
+                    <h4>Figma</h4>
+                    <small className='text-light'>Beginer</small>
+                    </div>
+                    </article>
+
+                    <article className='experience_details'>
+                    <BsPatchCheckFill className='experience_details_icon'/>
+                    <div>
+                    <h4>Filmora</h4>
+                    <small className='text-light'>Experienced</small>
+                    </div>
+                    </article>
+
+                    <article className='experience_details'>
+                    <BsPatchCheckFill className='experience_details_icon'/>
+                    <div>
+                    <h4>Premiere Pro</h4>
+                    <small className='text-light'>Intermediate</small>
+                    </div>
+                    </article>
+
+                    
                 </div>
             </div>
             

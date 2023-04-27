@@ -4,12 +4,11 @@
     gap:15%;
 
 }
-#about h5{
-    margin-bottom: 0;
+#about{
+    height:80vh;
 }
 
 .about_me{
-    /* margin-left: 4rem; */
     width:100%;
     aspect-ratio: 1/1;
     border-radius:2rem;
@@ -64,6 +63,9 @@
     color: var(--color-light);
 }
 @media screen and (max-width:1024px){
+    #about{
+        height: 130vh;
+    }
     .about_container{
         grid-template-columns:1fr;
         gap:0;

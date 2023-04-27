@@ -6,6 +6,7 @@ import {FaFolderOpen} from 'react-icons/fa';
 
 function About() {
   return (
+    <>
     <section id="about">
         <h5>Get To Know</h5>
         <h2>About Me</h2>
@@ -38,7 +39,10 @@ function About() {
             </div>
             
         </div>
-    </section>
+        </section>
+        </>
+
+    
   )
 }
 
