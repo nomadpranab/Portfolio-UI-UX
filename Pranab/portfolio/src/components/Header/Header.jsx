@@ -1,5 +1,7 @@
 import React from 'react'
 import CTA from './CTA'
+import Me from '../../assets/me.png'
+import HeaderSocial from './HeaderSocial'
 function Header() {
   return (
     <header>
@@ -8,7 +10,15 @@ function Header() {
             <h1>Pranab Patra</h1>
             <h5 className='text-light'>Fullstack Developer</h5>
             <CTA/>
+            <HeaderSocial/>
+            <div className='me'>
+                <img src={Me} alt=''/>
              </div>
+             <a href="#contact" className='scroll_down'>Scroll Down</a>
+            
+             </div>
+
+             
     </header>
   )
 }
