@@ -30,10 +30,11 @@ function About() {
                     </article>
                 </div>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor totam
-                     ratione nam culpa aut aliquid corrupti,inventore fugiat.
-                     Maiores perferendis repellat quasi rem soluta,
-                     deserunt animi cupiditate quos recusandae sed?
+                With a problem solving attitude
+and experience in Front-End
+Development and Web designing . I am
+Open to opportunities to learn and use
+my skills efficiently.
                 </p>
                 <a href="#contact" className='btn btn-primary'>Lets Talk</a>
             </div>
