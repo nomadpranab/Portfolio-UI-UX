@@ -57,6 +57,7 @@ input,textarea{
     .contact_container{
         grid-template-columns: 1fr;
         gap:2rem;
+        height: 130vh;
 
     }
     .contact_options{
