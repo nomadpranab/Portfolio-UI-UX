@@ -36,7 +36,7 @@ Development and Web designing . I am
 Open to opportunities to learn and use
 my skills efficiently.
                 </p>
-                <a href="#contact" className='btn btn-primary'>Lets Talk</a>
+                <a href="#contact" className='btn btn-primary text-center'>Lets Talk</a>
             </div>
             
         </div>

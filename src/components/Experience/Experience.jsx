@@ -6,8 +6,8 @@ function Experience() {
   return (
     <section id="experience">
 
-        <h5 className='heading'>Skills I Have</h5>
-        <h2>My Experience</h2>
+        <h5 className='heading text-center'>Skills I Have</h5>
+        <h2 className='text-center'>My Experience</h2>
 
         <div className='container experience_container'>
             <div className='experience_frontend'>

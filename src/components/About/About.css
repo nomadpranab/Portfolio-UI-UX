@@ -34,7 +34,7 @@
 }
 .about_cards{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap:1.5rem;
 }
 .about_card{
@@ -56,6 +56,9 @@
 .about_card h6{
     color: var(--color-light);
 }
+.about_content{
+    text-align: center;
+}
 .about_content p{
     margin: 1rem;
     margin-left: 0;
@@ -64,14 +67,14 @@
 }
 @media screen and (max-width:1024px){
     #about{
-        height: 130vh;
+        height: 160vh;
     }
     .about_container{
         grid-template-columns:1fr;
         gap:0;
     }
     .about_me{
-        width:50%;
+     
         margin: 2rem auto 4rem;
     }
 
