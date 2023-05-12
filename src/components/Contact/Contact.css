@@ -23,7 +23,7 @@
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transparent);
-    width: 21vw;
+    width: 22vw;
 }
 .contact_option:hover{
     background: transparent;
