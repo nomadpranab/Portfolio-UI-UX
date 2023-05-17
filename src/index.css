@@ -9,7 +9,7 @@
     text-decoration: none;
 }
 :root{
-    --color-bg:#1f1f38;
+    --color-bg:#131b23;
     --color-bg-variant:#2c3c43;
     --color-primary:#fbf3d2;
     --color-primary-variant:#fbf3d2;
@@ -35,7 +35,8 @@ body{
     background: var(--color-bg);
     color:var(--color-white);
     line-height: 1.7;
-    background-image:url('./assets/bg-texture.png');
+    /* background-image:url('./assets/bg-texture.png'); */
+    background-image: url('./assets/bganimated.svg');
 }
 
 
