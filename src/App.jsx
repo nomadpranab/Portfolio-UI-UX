@@ -5,7 +5,7 @@ import About from './components/About/About'
 import Experience from './components/Experience/Experience'
 import Portfolio from './components/Portfolio/Portfolio'
 import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/Footer'
+import Certfication from './components/Certification/Certification'
 import { useState } from 'react'
 import loader from './assets/spinnergif.svg'
 
@@ -35,9 +35,10 @@ function App() {
     <Header/>
     <About/>
     <Experience/>
+    <Certfication/>
     <Portfolio/>
+
     <Contact/>
-    <Footer/>
     </>
   )
   }
