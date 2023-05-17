@@ -4,16 +4,17 @@ import './certification.css'
 function Certification() {
   return (
     <section>
-      <div className="d-flex justify-content-around">
-        <div style={{width:"18rem"}}>
+      <h2 className='text-center'>My Certifications</h2>
+      <div className="d-flex flex-wrap justify-content-evenly">
+        <div className='p-2' id='certficatediv' style={{width:"18rem",height:"30rem"}}>
           <img src={require('../../assets/me11.png')} alt=''/>
         </div>
 
-        <div style={{width:"18rem"}}>
+        <div className='p-2' id='certficatediv'  style={{width:"18rem",height:"30rem"}}>
           <img src={require('../../assets/me11.png')} alt=''/>
         </div>
 
-        <div style={{width:"18rem"}}>
+        <div className='p-2' id='certficatediv' style={{width:"18rem",height:"30rem"}}>
           <img src={require('../../assets/me11.png')} alt=''/>
         </div>
 
