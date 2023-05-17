@@ -30,8 +30,9 @@ function App() {
   else{
   return (
     <>
-    <Header/>
+    
     <Navbar/>
+    <Header/>
     <About/>
     <Experience/>
     <Portfolio/>
