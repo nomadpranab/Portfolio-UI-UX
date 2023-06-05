@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css';
-import CV from '../../assets/CVUIUX.pdf'
+import CV from '../../assets/mycv.pdf'
 
 function CTA() {
   return (

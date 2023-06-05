@@ -37,7 +37,6 @@ function App() {
     <Experience/>
     <Certfication/>
     <Portfolio/>
-
     <Contact/>
     </>
   )
