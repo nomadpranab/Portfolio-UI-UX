@@ -3,7 +3,8 @@ import './Portfolio.css'
 
 function Portfolio() {
   return (
-    <div>
+    <section id='project'>
+      <div>
       <h2 className='text-center mb-3'>My Projects</h2>
       <div class="d-flex flex-wrap justify-content-evenly">
             <div>
@@ -43,8 +44,8 @@ function Portfolio() {
               <p className='text-center'>In this website you will get random quote of the day on every reload, and you can type it to check your typing accuracy.This website measures how much errors you are making and gives a score accordingly.
               </p>
               <br></br>
-              <a href='https://github.com/nomadpranab/Typing-Accuracy-App'><button className='btn btn-sm m-2 '>Live </button></a>
-              <a href='https://vercel.com/nomadpranab/typing-accuracy-app'><button className='btn btn-sm m-2'>GitHub </button></a>
+              <a href='https://typing-accuracy-app.vercel.app/'><button className='btn btn-sm m-2'>Live </button></a>
+              <a href='https://github.com/nomadpranab/Typing-Accuracy-App'><button className='btn btn-sm m-2 '>GitHub </button></a>
             </div>
             </div>
 
@@ -53,6 +54,8 @@ function Portfolio() {
         
       </div>
     </div>
+    </section>
+    
   )
 }
 
