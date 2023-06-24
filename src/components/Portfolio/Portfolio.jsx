@@ -1,11 +1,14 @@
 import React from 'react'
 import './Portfolio.css'
+import ReactPlayer from 'react-player'
+import video from '../../assets/movieappvideo.mp4'
 
 function Portfolio() {
   return (
     <section id='project'>
       <div>
       <h2 className='text-center mb-3'>My Projects</h2>
+      <h6 className='text-center'>Development Projects</h6>
       <div class="d-flex flex-wrap justify-content-evenly">
             <div>
             <div>
@@ -52,6 +55,23 @@ function Portfolio() {
       
         
         
+      </div>
+
+
+
+
+      <h6 className='text-center mt-5'>Designing Projects</h6>
+      <div class="d-flex flex-wrap justify-content-evenly">
+            <div>
+            <div className='text-center'>
+              <ReactPlayer width={350} autoplay url={video} controls={true} />
+            </div>
+
+            <div style={{width:"22rem"}}>
+              <p className='text-center'>The app offers a variety of browsing options, allowing you to explore based on genres, directors, actors, or even visual aesthetics. Want to delve into the dreamy world of surrealism? Or perhaps you're drawn to the vibrant colors of the '80s? CineScape lets you curate your own personalized movie collections, making it easy to revisit your favorite films or share them with friends.</p>
+              <br></br>
+            </div>
+            </div>
       </div>
     </div>
     </section>
