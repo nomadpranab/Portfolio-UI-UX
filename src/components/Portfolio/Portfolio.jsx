@@ -60,9 +60,10 @@ function Portfolio() {
 
 
 
-      <h6 className='text-center mt-5'>Designing Projects</h6>
+      <h4 className='text-center mt-5'>Designing Projects</h4>
       <div class="d-flex flex-wrap justify-content-evenly">
             <div>
+              <h6 className="text-center m-3">Movie Ticket Booking App</h6>
             <div className='text-center'>
               <ReactPlayer width={350} autoplay url={video} controls={true} />
             </div>
