@@ -17,7 +17,7 @@ function App() {
 
   setTimeout(()=>{
       setloading(false);
-  },5000);
+  },3000);
   
   if(loading===true)
   {

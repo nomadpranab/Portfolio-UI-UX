@@ -1,7 +1,5 @@
 import React from 'react'
 import './Portfolio.css'
-import ReactPlayer from 'react-player'
-import video from '../../assets/movieappvideo.mp4'
 
 function Portfolio() {
   return (
@@ -64,8 +62,9 @@ function Portfolio() {
       <div class="d-flex flex-wrap justify-content-evenly">
             <div>
               <h6 className="text-center m-3">Movie Ticket Booking App</h6>
-            <div className='text-center'>
-              <ReactPlayer width={350} autoplay url={video} controls={true} />
+            <div className='text-center' style={{width:'20rem',height:'12rem'}}>
+              {/* <ReactPlayer width={350} autoplay url={video} controls={true} /> */}
+              <img src={require('../../assets/movieapp.gif')}  alt=''/>
             </div>
 
             <div style={{width:"22rem"}}>
