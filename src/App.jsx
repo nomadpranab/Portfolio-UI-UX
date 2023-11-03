@@ -8,6 +8,7 @@ import Contact from './components/Contact/Contact'
 import Certfication from './components/Certification/Certification'
 import { useState } from 'react'
 import loader from './assets/spinnergif.svg'
+import Temp from './components/TEMP/temp'
 
 
 
@@ -38,6 +39,7 @@ function App() {
     <Certfication/>
     <Portfolio/>
     <Contact/>
+    <Temp/>
     </>
   )
   }
